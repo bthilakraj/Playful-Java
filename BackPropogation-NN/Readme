@@ -1,0 +1,21 @@
+Back Propogation -Neural Network
+
+Implement a simulation of the Backprop Learning Rule in a program
+
+This is a four-class problem as can be seen from the class labels.
+
+run numerical experiments with one and two hidden layer network
+topologies. For each topology, vary the initial random weights and the number
+of hidden nodes in the layers at least three times, ranging from 2 to 50 or
+more per layer.
+
+For the Training and Testing files, the column headings are: “c” the class
+label, “i” the sample index within the class, and “x1” and “x2” the feature
+vector components for input. Map the class labels to the desired output values
+(d1, d2, d3, d4) for the four output neurons as follows:
+d1 d2 d3 d4
+Class 1: 1 0 0 0
+Class 2: 0 1 0 0
+Class 3: 0 0 1 0
+Class 4: 0 0 0 1
+The Training and Testing files each contain 800 samples, 200 per class.
